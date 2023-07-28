@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Urbanist;
+  background-color: #EFEFEF;
+}
+
+.menu {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  list-style-type: none;
+  font-size: 20px;
+}
+.menu a {
+  text-decoration: none;
+}
+.menu a:visited {
+  color: #4F6A9E;
+}
+.menu a:hover {
+  color: #DADADA; /* BUSCAR OTRO COLOR */
+}
+
+.bienvenida {
+  margin-top: 12rem;
+  margin-left: 4rem;
+  margin-bottom: 1rem;
+  color: #4F6A9E;
+  font-size: 35px;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  background-color: #DADADA;
+  color: #4F6A9E;
+  width: 75%;
+  height: 275px;
+  margin-left: 3rem;
+  padding: 1rem;
+  position: relative;
+  box-shadow: -5px 4px 5px 0px rgba(0, 0, 0, 0.361);
+  border-radius: 10px;
+}
+.intro__nombre {
+  font-size: 50px;
+  background-color: #DADADA;
+}
+.intro__desc {
+  width: 65%;
+  font-size: 30px;
+  background-color: #DADADA;
+}
+.intro__foto {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 1;
+  right: 0;
+  margin: auto;
+  height: 400px;
+  border-radius: 35px;
+  box-shadow: -5px 0px 5px 0px rgba(0, 0, 0, 0.361);
+}
+
+footer {
+  color: #4F6A9E;
+  display: flex;
+  justify-content: center;
+  margin-top: 17rem;
+}
+
+.titulo__sobremi {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+  margin-bottom: -7rem;
+  margin-left: -7rem;
+  color: #4F6A9E;
+  font-size: 60px;
+}
+
+.grilla__sobremi {
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  grid-template-rows: 200px 200px;
+  gap: 2rem;
+  margin-top: 8rem;
+  grid-template-areas: "foto desc desc" "foto desc desc";
+  justify-content: center;
+}
+
+.grilla__desc {
+  background-color: #DADADA;
+  padding: 1rem;
+  grid-area: desc;
+  color: #4F6A9E;
+}
+
+.grilla__foto {
+  grid-area: foto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.grilla__sobremi > * {
+  box-shadow: -5px 4px 5px 0px rgba(0, 0, 0, 0.361);
+  border-radius: 10px;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,49 @@
+.titulo__sobremi{
+
+    display: flex;
+    justify-content: center;
+    
+    margin-top: 10rem;
+    margin-bottom: -7rem;
+    margin-left: -7rem;
+
+    color: $colorPrincipal;
+    font-size: 60px;
+}
+
+.grilla__sobremi{
+
+    display: grid;
+
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 200px 200px;
+
+    gap: 2rem;
+
+    margin-top: 8rem;
+
+    grid-template-areas: 
+        "foto desc desc"
+        "foto desc desc";
+
+    justify-content: center;
+
+}
+
+.grilla__desc{
+    background-color: $colorSecundario;
+    padding: 1rem;
+    grid-area: desc;
+    color: $colorPrincipal;
+}
+.grilla__foto{
+    grid-area: foto;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.grilla__sobremi > *{
+    box-shadow: -5px 4px 5px 0px rgba(0, 0, 0, 0.361);
+    border-radius: 10px;
+}

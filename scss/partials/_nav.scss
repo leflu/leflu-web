@@ -1,0 +1,19 @@
+.menu{
+    
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    list-style-type: none;
+    font-size: 20px;
+
+    a{
+        text-decoration: none;
+        
+        &:visited{
+            color: $colorPrincipal;
+        }
+        &:hover{
+            color: $colorSecundario; /* BUSCAR OTRO COLOR */
+        }
+    }
+}
