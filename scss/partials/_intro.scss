@@ -36,6 +36,9 @@
         width: 75%;
         font-size: 30px;
         background-color: $colorSecundario;
+        @media (max-width: 1500px) {
+            width: auto;
+        }
     }
 
     &__foto{

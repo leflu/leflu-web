@@ -54,6 +54,11 @@
   font-size: 30px;
   background-color: #DADADA;
 }
+@media (max-width: 1500px) {
+  .intro__desc {
+    width: auto;
+  }
+}
 .intro__foto {
   position: absolute;
   top: 0;
