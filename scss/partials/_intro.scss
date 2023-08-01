@@ -21,7 +21,6 @@
     color: $colorPrincipal;
 
     width: 75%;
-    height: 275px;
     margin-left: 3rem;
     padding: 1rem;
     position: relative;
@@ -34,7 +33,7 @@
         background-color: $colorSecundario;
     }
     &__desc{
-        width: 65%;
+        width: 75%;
         font-size: 30px;
         background-color: $colorSecundario;
     }
@@ -47,6 +46,7 @@
         right: 0;
         margin: auto;
         height: 400px;
+        object-fit: cover;
 
         border-radius: 35px;
         box-shadow: -5px 0px 5px 0px rgba(0, 0, 0, 0.361);
@@ -54,6 +54,7 @@
 }
 
 footer{
+
     color: $colorPrincipal;
 
     display: flex;

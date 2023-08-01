@@ -1,63 +1,149 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sobre Mi - Nicolás Salinas</title>
-    <link rel="stylesheet" href="../css/styles.css" />
+    <title>habilidades</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../scss/main.css" />
   </head>
   <body>
     <header>
-      <nav>
-        <ul class="menu">
-          <li class="menu-item"><a href="../index.html">inicio</a></li>
-          <li class="menu-item">
-            <a href="./sobre-mi.html">sobre mi</a>
-          </li>
-          <li class="menu-item">
-            <a href="./habilidades.html">habilidades</a>
-          </li>
-          <li class="menu-item">
-            <a href="./portafolio.html">portafolio</a>
-          </li>
-          <li class="menu-item">
-            <a href="./contacto.html">contacto</a>
-          </li>
-        </ul>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav menu">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./sobre-mi.html">SOBRE MI</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./habilidades.html"
+                  >HABILIDADES</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./portafolio.html">PORTAFOLIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contacto.html">CONTACTO</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </header>
-    <main class="blanco">
-      <h1>Habilidades</h1>
-      <div>
-        <h2>3D</h2>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet nobis
-          eos aliquid voluptates, omnis ducimus.
-        </p>
-        <img src="../img/blenderlogo.png" alt="blenderlogo" />
-        <img src="../img/zbrush.png" alt="zbrushlogo" />
-        <img src="../img/substance.png" alt="substancelogo" />
+    <main>
+      <div class="container titulo__habilidades">
+        <h1>HABILIDADES</h1>
       </div>
-      <div>
-        <h2>Diseno</h2>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet nobis
-          eos aliquid voluptates, omnis ducimus.
-        </p>
-        <img src="../img/psd.png" alt="photoshoplogo" />
-        <img src="../img/illustrator.png" alt="illustratorlogo" />
-      </div>
-      <div>
-        <h2>Desarrollo</h2>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet nobis
-          eos aliquid voluptates, omnis ducimus.
-        </p>
-        <img src="../img/unity.png" alt="unitylogo" />
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="columnas col-md">
+            <h2>3D</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+              qui in minima. Et, quia inventore! Placeat sint labore molestias
+              asperiores cum consequuntur accusamus aspernatur voluptatibus nam
+              doloribus, iusto quod, ullam beatae officiis nulla in voluptas
+              repellat quia adipisci a hic repudiandae! Architecto enim quae
+              totam, sit possimus consectetur ducimus cupiditate.
+            </p>
+            <div class="img__column--container">
+              <img
+                class="img__column"
+                src="../img/blenderlogo.png"
+                alt=""
+                srcset=""
+              />
+              <img
+                class="img__column"
+                src="../img/substance.png"
+                alt=""
+                srcset=""
+              />
+              <img
+                class="img__column"
+                src="../img/zbrush.png"
+                alt=""
+                srcset=""
+              />
+            </div>
+          </div>
+          <div class="columnas col-md">
+            <h2>DISENO</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+              obcaecati nobis culpa quaerat distinctio optio magni, sed ullam
+              alias totam modi voluptatibus, neque eius vero repellat placeat
+              similique deserunt ratione dicta! Ex exercitationem aliquam magni
+              vitae quisquam laudantium enim velit, quod delectus mollitia
+              fugiat laboriosam voluptatibus in debitis adipisci quas.
+            </p>
+            <div class="img__column--container">
+              <img
+                class="img__column"
+                src="../img/psd.png"
+                alt=""
+                srcset=""
+              />
+              <img
+                class="img__column"
+                src="../img/illustrator.png"
+                alt=""
+                srcset=""
+              />
+             
+            </div>
+          </div>
+          <div class="columnas col-md">
+            <h2>DESARROLLO</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
+              esse! Ducimus incidunt autem nisi voluptates! Enim dignissimos,
+              eos quibusdam corporis quia quos voluptate inventore molestiae sit
+              provident quam dolorem asperiores sed debitis animi obcaecati!
+              Harum, voluptates. Assumenda, totam quasi consequatur nam
+              consequuntur, ipsum, ad hic tenetur exercitationem quae porro
+              error.
+            </p>
+            <div class="img__column--container">
+              <img
+                class="img__column"
+                src="../img/unity.png"
+                alt=""
+                srcset=""
+              />
+            </div>
+          </div>
+          </div>
+        </div>
       </div>
     </main>
-    <footer>
-      <p>Great men are not born great, they grow great. - Don Vito Corleone</p>
-    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
