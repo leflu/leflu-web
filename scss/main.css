@@ -124,7 +124,7 @@ footer {
 }
 
 .row {
-  margin-top: 8rem;
+  margin-top: 4rem;
   gap: 8rem;
 }
 .row .columnas {
@@ -147,8 +147,11 @@ footer {
   justify-content: center;
 }
 .img__column--container .img__column {
-  width: 50px;
+  width: 60px;
   margin: 1rem;
+  background-color: #DADADA;
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
 }
 
 .titulo__habilidades {
