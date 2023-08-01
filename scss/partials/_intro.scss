@@ -1,7 +1,7 @@
 
 .bienvenida{
 
-
+    width: 75%;
     margin-top: 12rem;
     margin-left: 4rem;
     margin-bottom: 1rem;
@@ -50,6 +50,12 @@
 
         border-radius: 35px;
         box-shadow: -5px 0px 5px 0px rgba(0, 0, 0, 0.361);
+
+        @media (max-width: 1500px) {
+            position: relative;
+            height: 400px;
+            object-fit: cover;
+        }
     }
 }
 
