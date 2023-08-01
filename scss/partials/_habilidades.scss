@@ -1,0 +1,42 @@
+.row{
+
+    margin-top: 4rem;
+    gap: 8rem;
+
+
+    .columnas{
+        background-color: $colorSecundario;
+        padding: 1rem;
+
+        color: $colorPrincipal;
+        box-shadow: -5px 4px 5px 0px rgba(0, 0, 0, 0.361);
+        border-radius: 10px;
+            p{
+                background-color: $colorSecundario;
+            }
+    }
+}
+
+
+.active{
+    color: $colorPrincipal !important;
+}
+
+.img__column--container{
+
+    display: flex;
+    justify-content: center;
+
+    .img__column{
+        width: 60px;
+        margin: 1rem;
+        background-color: $colorSecundario;
+        object-fit: scale-down;
+    }
+}
+
+.titulo__habilidades{
+    color: $colorPrincipal;
+    display: flex;
+    margin-top: 3rem;
+}
