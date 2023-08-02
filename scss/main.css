@@ -91,21 +91,27 @@ footer {
 .titulo__sobremi {
   display: flex;
   justify-content: center;
-  margin-top: 3rem;
-  margin-bottom: -7rem;
-  margin-left: -7rem;
+  margin-top: 4rem;
   color: #4F6A9E;
   font-size: 60px;
 }
 
 .grilla__sobremi {
   display: grid;
-  grid-template-columns: 400px 400px 400px;
-  grid-template-rows: 200px 200px;
-  gap: 2rem;
-  margin-top: 8rem;
+  grid-template-columns: 1r 1r 1r;
+  grid-template-rows: 1r 1r;
+  gap: 1rem;
   grid-template-areas: "foto desc desc" "foto desc desc";
-  justify-content: center;
+}
+@media (max-width: 1000px) {
+  .grilla__sobremi {
+    display: grid;
+    grid-template-columns: 1r 1r;
+    grid-template-rows: 1r 1r 1r;
+    gap: 2rem;
+    margin-top: 5rem;
+    grid-template-areas: "foto foto " "desc desc " "desc desc";
+  }
 }
 
 .grilla__desc {
