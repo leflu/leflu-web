@@ -276,4 +276,17 @@ footer {
     border: solid 1px black;
     border-radius: 2px;
   }
+}
+
+.footer_socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-bottom: -1rem;
+}
+.footer_socials img {
+  width: 30px;
+  opacity: 0.3;
 }/*# sourceMappingURL=main.css.map */
