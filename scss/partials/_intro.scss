@@ -1,47 +1,41 @@
-
 .bienvenida{
-
     width: 75%;
     margin-top: 12rem;
     margin-left: 4rem;
     margin-bottom: 1rem;
     color: $colorPrincipal;
     font-size: 35px;
-
 }
 
 .intro{
 
     display: flex;
     flex-direction: column;
-
     justify-items: center;
-
-    background-color: $colorSecundario;
-    color: $colorPrincipal;
-
+    
     width: 75%;
     margin-left: 3rem;
     padding: 1rem;
     position: relative;
+    
+    color: $colorPrincipal;
 
-    box-shadow: -5px 4px 5px 0px rgba(0, 0, 0, 0.361);
-    border-radius: 10px;
+    @include tarjeta;
+
 
     &__nombre{
         font-size: 50px;
-        background-color: $colorSecundario;
     }
     &__desc{
         width: 75%;
         font-size: 30px;
-        background-color: $colorSecundario;
         @media (max-width: 1500px) {
             width: auto;
         }
     }
 
     &__foto{
+
         position: absolute;
         top: 0;
         bottom: 0;
@@ -51,8 +45,8 @@
         height: 400px;
         object-fit: cover;
 
-        border-radius: 35px;
-        box-shadow: -5px 0px 5px 0px rgba(0, 0, 0, 0.361);
+        @include tarjeta;
+
 
         @media (max-width: 1500px) {
             position: relative;
@@ -60,12 +54,12 @@
             object-fit: cover;
         }
     }
+
 }
 
 footer{
 
     color: $colorPrincipal;
-
     display: flex;
     justify-content: center;
     margin-top: 17rem;

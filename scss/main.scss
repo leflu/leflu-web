@@ -1,5 +1,5 @@
 @import "./partials/variables";
-
+@import "./partials/mediaqueries";
 *{
    
     margin: 0;
@@ -13,3 +13,5 @@
 @import "./partials/intro";
 @import "./partials/sobremi";
 @import "./partials/habilidades";
+@import "./partials/portafolio";
+@import "./partials/contact";
