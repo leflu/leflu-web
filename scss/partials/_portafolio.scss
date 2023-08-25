@@ -1,24 +1,22 @@
 .titulo__portafolio{
-    display: flex;
-    justify-content: start;
+    padding: 1rem;
     margin-top: 2rem;
-    padding-left: 5rem;
     color: $colorPrincipal;
 }
 
 .grilla__portafolio{
 
     display: grid;
-    grid-template-columns: 800px 800px;
-    grid-template-rows: 300px 300px;
+    grid-template-columns: 1r 1r;
+    grid-template-rows: 1r 1r;
     grid-template-areas: 
     "proj proj"
     "proj proj";
-    gap: 1rem;
+
     justify-content: center;
-    margin-top: 1rem;
+    margin-top: -1rem;
     color: $colorPrincipal;
-    
+    width: 100%;
     &--proyecto{
         
         padding: 1rem;
@@ -46,7 +44,7 @@
     }  
     @include mobile{
         display: grid;
-        grid-template-columns: 600px;
+        grid-template-columns: 1r;
         grid-template-areas: 
         "proj"; 
         justify-content: center;
