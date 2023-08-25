@@ -147,8 +147,10 @@ footer {
 }
 
 .row {
-  margin-top: 3rem;
+  padding: 2rem;
+  margin-top: -2rem;
   gap: 8rem;
+  width: 100%;
 }
 .row .columnas {
   box-shadow: -5px 4px 5px 0px rgba(0, 0, 0, 0.361);
@@ -156,10 +158,6 @@ footer {
   background-color: #DADADA;
   padding: 1rem;
   color: #4F6A9E;
-  height: 50vh;
-}
-.row .columnas:hover {
-  transform: scale(2px);
 }
 
 .active {
@@ -171,15 +169,15 @@ footer {
   justify-content: center;
 }
 .img__column--container .img__column {
-  width: 60px;
+  width: 70px;
   margin: 1rem;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
 .titulo__habilidades {
+  padding: 2rem;
   color: #4F6A9E;
-  margin-top: 2rem;
 }
 
 .titulo__portafolio {
